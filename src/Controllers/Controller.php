@@ -7,4 +7,8 @@
 			$chaussettes = Armoire::all(10,0);
 			require ROOT .'/src/Views/table.php';
 		}
+		public static function show(){
+			$chaussettes = Armoire::get($_GET['id']);
+			require ROOT .'/src/Views/detail.php';
+		}
 	}

@@ -5,3 +5,4 @@ define('ROOT', __DIR__);
 use Nicko\Controllers\Controller;
 
 Controller::view();
+Controller::detail();

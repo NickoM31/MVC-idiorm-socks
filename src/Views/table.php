@@ -22,14 +22,14 @@
 			<tr>
 				
 				<td>
-					<a href= "detail.php?id=<?php echo $socks->id;?>"><?= $socks->id;?></a>
+					<a href="detail.php?id=<?php echo $socks->id;?>"><?= $socks->id;?></a>
 				</td>
 				<td><?php echo $socks->description;?></td>
 				<td><?php echo $socks->pointure;?></td>
 				<td><?php echo $socks->couleur;?></td>
 				<td><?php echo $socks->temp_lavage;?>°C</td>
 				<td><?php echo $socks->date_lavage;?></td>
-				<td><a href="edit.php">Edit</a></td>
+				<td><a href="/?edit=">Edit</a></td>
 			</tr>
 			<?php
 		}
